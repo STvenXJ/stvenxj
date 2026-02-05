@@ -1,8 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# STvenXJ – Automation & Tools
 
-## Getting Started
+This is a personal **Next.js** project used to document and showcase
+automation scripts, tools, and technical experiments — mainly around
+**AutoHotkey (AHK)**, productivity utilities, and workflow automation.
 
-First, run the development server:
+Most projects here are **explained in detail through videos**, not just code.
+
+---
+
+## 🚀 Tech Stack
+
+- **Next.js (App Router)**
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **next/image & next/font**
+- Deployed on **Vercel**
+
+---
+
+## 📂 What’s Inside
+
+- 🔧 **Automation Scripts**  
+  AHK files for automating repetitive tasks.
+
+- 🛠 **Utility Tools**  
+  Small programs or helpers used in real workflows.
+
+- 🧪 **Experiments**  
+  Code experiments, logic tests, and prototypes.
+
+- 📄 **Documentation**  
+  Explanations on how things work and how to modify them.
+
+> This is **not a marketplace**.  
+> Everything here is for learning, explaining, and experimenting.
+
+---
+
+## ▶️ Video Explanations
+
+Most projects are explained on YouTube:
+
+👉 **YouTube Channel**  
+https://www.youtube.com/@STvenXJ
+
+---
+
+## 💻 Source & Files
+
+Some scripts and tools are also available on GitHub:
+
+👉 **GitHub**  
+https://github.com/STvenXJ/
+
+---
+
+## 🧑‍💻 Getting Started (Development)
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -12,25 +68,26 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+Open http://localhost:3000 to view the site.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can start editing the main page here:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+app/page.tsx
+The app uses next/font for optimized font loading.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🌐 Deployment
+The project is designed to be deployed on Vercel.
 
-## Learn More
+Docs:
 
-To learn more about Next.js, take a look at the following resources:
+https://nextjs.org/docs/app/building-your-application/deploying
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📌 Notes
+Project is under active development
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Structure and content may change
 
-## Deploy on Vercel
+More automation files & documentation will be added over time
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© STvenXJ
+Built for learning, automation, and experimentation.
