@@ -11,19 +11,19 @@ type Props = {
 
 export function ProjectCard({ project }: Props) {
   return (
-    <Card className="group relative overflow-hidden transition hover:-translate-y-1 hover:shadow-lg">
+    <Card className="group relative overflow-hidden transition hover:shadow-lg">
       {/* glow */}
       <div className="pointer-events-none absolute -inset-1 rounded-xl bg-gradient-to-r from-primary/20 to-indigo-500/20 opacity-0 blur-xl transition group-hover:opacity-100" />
 
       <CardContent className="relative p-6">
         <div className="relative mb-4 h-40 w-full overflow-hidden rounded-lg">
           <Image
-            src={project.image}
+            src={""}
             alt={project.title}
             fill
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, 33vw"
-            priority={false}
+            className="object-cover"            
+            height={500}            
+            width={500}            
           />
         </div>
 

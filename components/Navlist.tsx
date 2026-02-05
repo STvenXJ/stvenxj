@@ -1,5 +1,5 @@
 "use client";
-import { menulist } from "@/lib/globar-var";
+import { menulist } from "@/lib/global-var";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 

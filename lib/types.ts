@@ -5,5 +5,5 @@ export type Project = {
   image: string
   file: string
   tags: string[]
-  category: "AHK" | "Tools"
+  category: string
 }

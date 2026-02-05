@@ -10,7 +10,7 @@ export default function Home() {
       {/* ================= HERO ================= */}
       <section className="relative">
         <div className="container mx-auto px-6 py-24">
-          <div className="grid gap-12 lg:grid-cols-2 items-center">
+          <div className="grid gap-16 lg:grid-cols-2 items-center">
             {/* LEFT */}
             <div>
               <Badge variant="outline" className="mb-4">
