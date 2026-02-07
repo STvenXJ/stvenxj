@@ -1,5 +1,4 @@
 "use client";
-
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Project } from "@/lib/types";
 import { useQuery } from "@tanstack/react-query";
@@ -19,6 +18,7 @@ export default function FullProjectPage() {
 		isLoading,
 		isError,
 	} = useQuery<Project[]>({
+		refetchOnWindowFocus: true,
 		queryKey: ["projects"],
 		queryFn: async () => {
 			const { data } = await axios.get(GOOGLE_SHEETS_URL);

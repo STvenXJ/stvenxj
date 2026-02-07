@@ -1,5 +1,9 @@
-import React from "react";
+import MaxWidthDiv from "@/components/MaxWidthDiv";
 
 export default function page() {
-  return <div>page</div>;
+	return (
+		<MaxWidthDiv className="text-center text-4xl my-40">
+			Coming Soon
+		</MaxWidthDiv>
+	);
 }
